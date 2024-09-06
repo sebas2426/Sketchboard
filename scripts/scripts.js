@@ -32,7 +32,7 @@ let userInput;
 divsSize(16);
 
 askingButton.addEventListener("click", () =>{
-     userInput= prompt("Put the size of the sketch board ");
+     userInput= prompt("Put the size of the sketch board (1-100) ");
      if(userInput<1 || userInput>100){
         alert("This number is not available, select only numbers between 1 and 100")
      }else{
